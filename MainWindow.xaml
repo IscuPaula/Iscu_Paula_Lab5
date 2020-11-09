@@ -1,0 +1,33 @@
+﻿<Window x:Class="Iscu_Paula_Lab5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Iscu_Paula_Lab5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="800">
+    <Grid x:Name="IsPhones" Margin="0,0,33,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="734*"/>
+            <ColumnDefinition Width="33*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnNew" Content="New" HorizontalAlignment="Left" Margin="27,42,0,0" VerticalAlignment="Top" Width="65" Height="19"/>
+        <Button x:Name="btnEdit" Content="Edit" HorizontalAlignment="Left" Margin="27,86,0,0" VerticalAlignment="Top" Width="65" Height="23"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="27,126,0,0" VerticalAlignment="Top" Width="65" Height="20"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="34,214,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="21" Width="58"/>
+        <ListBox x:Name="isPhones" Margin="171,32,11,177"/>
+        <Button x:Name="btnNext" Content="Next" HorizontalAlignment="Left" Margin="214,308,0,0" VerticalAlignment="Top" Height="21" Width="90"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Center" Height="20" Margin="0,409,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="70" IsEnabled="False">
+        </Button>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="474,409,0,0" VerticalAlignment="Top" IsEnabled="False" Width="67" Height="20"/>
+        <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left" Margin="497,309,0,0" VerticalAlignment="Top" Height="20" Width="88"/>
+        <Label x:Name="IblPhoneNum" Content="Phone Number" HorizontalAlignment="Left" Margin="219,334,0,0" VerticalAlignment="Top" Height="26" Width="91"/>
+        <Label x:Name="IblSubscriber" Content="Subscriber" HorizontalAlignment="Left" Margin="230,367,0,0" VerticalAlignment="Top" Height="26" Width="65"/>
+        <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Margin="352,338,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Height="18"/>
+        <TextBox x:Name="txtSubscriber" HorizontalAlignment="Left" Margin="352,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Height="18"/>
+
+
+
+
+    </Grid>
+</Window>
