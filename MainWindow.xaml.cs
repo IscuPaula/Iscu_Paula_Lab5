@@ -236,5 +236,19 @@ namespace Iscu_Paula_Lab5
                 txtSubscriber.SetBinding(TextBox.TextProperty, txtSubscriberBinding);
             }
         }
+        private void btnPrevious_Click(object sender, RoutedEventArgs e)
+        {
+            //using System.ComponentModel
+            ICollectionView navigationView =
+           CollectionViewSource.GetDefaultView(phoneNumbersDataSet.PhoneNumbers)
+ navigationView.MoveCurrentToPrevious();
+        }
+        private void btnPrevious_Click(object sender, RoutedEventArgs e)
+        {
+            //using System.ComponentModel
+            ICollectionView navigationView =
+           CollectionViewSource.GetDefaultView(phoneNumbersDataSet.PhoneNumbers)
+ navigationView.MoveCurrentToPrevious();
+        }
     }
     }
